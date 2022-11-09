@@ -40,6 +40,5 @@ function Cow:update(dt)
 end
 
 function Cow:draw()
-    --local angle  = love.timer.getTime() * 2*math.pi / 2.5
     love.graphics.draw(self.image, self.x, self.y, self.rotation, .1, .1, self.width/2, self.height/2)
 end
